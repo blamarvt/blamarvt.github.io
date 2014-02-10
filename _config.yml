@@ -1,4 +1,5 @@
 name: Your New Jekyll Site
+safe: true
+lsi: false
 markdown: redcarpet
 pygments: true
-baseurl: /blamarvt.github.io
