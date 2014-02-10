@@ -1,6 +1,0 @@
-safe: true
-pygments: true
-permalink: /post/:title
-exclude: ['Gemfile','Gemfile.lock','Rakefile','.git']
-paginate: 4
-baseurl: /blamarvt.github.io
