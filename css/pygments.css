@@ -7,12 +7,15 @@
 
 .highlight pre {
   white-space: pre;
-  font-size: 0.8em;
-  line-height: 1.2em;
-  color: #d0d0d0; }
+  color: #222; }
 
-.highlight pre code {
-  font-family: 'Source Code Pro', monospace; }
+p code {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 0.8em;
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 5px;
+  margin: 0 5px; }
 
 .highlight .c {
   color: #999988;
