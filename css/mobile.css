@@ -5,7 +5,7 @@
   box-sizing: border-box; }
 
 body {
-  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   margin: 0;
   color: #444444;
   font-size: 1.2em;
@@ -20,7 +20,7 @@ a:hover {
 
 h1, h2, h3, h4, h5 {
   color: #222222;
-  font-family: "Ubuntu Condensed", Helvetica, Arial, sans-serif;
+  font-family: "Bebas Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: normal;
   line-height: 0.8em;
@@ -57,14 +57,14 @@ p {
   padding: 20px; }
 
 .container {
-  *zoom: 1;
+  zoom: 1;
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
   max-width: 780px;
   position: relative; }
   .container:before, .container:after {
-    content: " ";
+    content: "";
     display: table; }
   .container:after {
     clear: both; }
@@ -76,12 +76,12 @@ header a {
 
 header nav ul {
   font-size: 16px;
-  *zoom: 1;
+  zoom: 1;
   list-style: none;
   padding: 0;
   margin: 0 0 10px; }
   header nav ul:before, header nav ul:after {
-    content: " ";
+    content: "";
     display: table; }
   header nav ul:after {
     clear: both; }
@@ -221,7 +221,7 @@ ul {
   border-top: none; }
 
 .post-header .date {
-  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   text-decoration: lowercase;
   margin: 1em 0 -1.2em; }
 
@@ -254,20 +254,21 @@ ul {
   display: block;
   text-align: center;
   margin-bottom: 10px;
-  font-family: "Ubuntu Condensed", Helvetica, Arial, sans-serif;
+  font-family: "Bebas Neue", Helvetica, Arial, sans-serif;
   font-size: 1.2em; }
 
 .key-selector a {
   float: left;
   padding: 0.5em 0.4em 0.4em;
   margin-right: 0.4em;
-  font-family: "Ubuntu", Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-size: 0.9em; }
 
 .key-selector a.active {
   background-color: #6ec5ff; }
 
 .button:hover, .button:active {
+  -webkit-box-shadow: 0 0 1px 2px black inset;
   box-shadow: 0 0 1px 2px black inset; }
 
 .pagination .button span {
