@@ -3,25 +3,6 @@ title: Exemplar
 nav: blog
 layout: default
 ---
-<p>
-  This is an example of the default theme I use for my jekyll sites. This
-  theme is used for my <a href="http://tybenz.com">blog</a> and my project sites.
-</p>
-
-<p>
-  This site uses a combination of the following:
-</p>
-
-<ol>
-  <li><a href="http://jekyllrb.com/">Jekyll</a>: Static site generator</li>
-  <li><a href="http://sass-lang.com">Sass</a>: CSS preprocessor</li>
-  <li><a href="http://bourbon.io">Bourbon</a>: Set of generic Sass mixins</li>
-  <li><a href="http://neat.bourbon.io">Neat</a>: Set of grid-based Sass mixins (dependent on Bourbon)</li>
-  <li>Fonts: <a href="http://www.fontsquirrel.com/fonts/bebas-neue">Bebas Neue</a>, <a href="https://github.com/adobe/source-sans-pro">Adobe Source Sans Pro</a>, <a href="https://github.com/adobe/source-code-pro">Adobe Source Code Pro</a></li>
-</ol>
-
-<br />
-
 {% for post in site.posts %}
 <h2>{{ post.title }}</h2>
 <p class="meta">{{ post.date | date_to_string }}</p>
