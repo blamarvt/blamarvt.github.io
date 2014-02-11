@@ -224,7 +224,7 @@ header .social img {
 
 header .avatar, header .avatar-large {
   height: 58px;
-  border: 2px solid #111111;
+  border: 0px solid #AAA;
   float: left;
   margin-left: 10px;
   display: none; }
@@ -275,10 +275,14 @@ ul {
 
 .post {
   border-top: 1px solid #cccccc;
-  margin-bottom: 5em; }
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 2em; }
 
 .post:first-child {
   border-top: none; }
+
+.post:last-child {
+  border-bottom: none; }
 
 .post-header .date {
   font-family: "Ubuntu", Helvetica, Arial, sans-serif;
